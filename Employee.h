@@ -24,7 +24,7 @@ public:
 	string getAddress();
 
 
-	void setSalary(string s);
+	void setSalary(float s);
 	float getSalary();
 
 
