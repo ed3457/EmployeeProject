@@ -3,13 +3,21 @@
 
 #include <iostream>
 #include "Employee.h"
+#include "Manager.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+   
 
     Employee e1;
 
     e1.setName("Jason");
+
+    Manager m1;
+
+    m1.setDepartment("QA");
+
+    std::cout << m1.getName();
+   
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
