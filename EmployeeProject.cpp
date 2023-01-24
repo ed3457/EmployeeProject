@@ -17,6 +17,8 @@ int main()
     m1.setDepartment("QA");
 
     std::cout << m1.getName();
+
+    Manager m2("Mary", "Sr. Manager", "2222 Joy Rd", 3000, "QA"); 
    
 }
 
